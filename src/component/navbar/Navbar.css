@@ -1,0 +1,101 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a2a2a;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #555;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a:hover {
+    color: #007bff;
+  }
+  
+  .navbar-links .active {
+    color: #00d1a0;
+    font-weight: bold;
+  }
+  
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile-role {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .profile-menu-icon {
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+  
+    .profile-info {
+      display: none;
+    }
+  }
+  

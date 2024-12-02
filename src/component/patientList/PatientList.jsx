@@ -1,17 +1,17 @@
 import React from "react";
 import "./PatientList.css";
-import pic1 from '../../../assests/pic-1.png'
-import pic2 from '../../../assests/pic 2.png'
-import pic3 from '../../../assests/pic 3.png'
-import pic4 from '../../../assests/pic 4.png'
-import pic5 from '../../../assests/pic 5.png'
-import pic6 from '../../../assests/pic 6.png'
-import pic7 from '../../../assests/pic 7.png'
-import pic8 from '../../../assests/pic 8.png'
-import pic9 from '../../../assests/pic 9.png'
-import pic10 from '../../../assests/pic 10.png'
-import pic11 from '../../../assests/pic 11.png'
-import pic12 from '../../../assests/pic 12.png'
+import pic1 from '../../assests/pic-1.png'
+import pic2 from '../../assests/pic 2.png'
+import pic3 from '../../assests/pic 3.png'
+import pic4 from '../../assests/pic 4.png'
+import pic5 from '../../assests/pic 5.png'
+import pic6 from '../../assests/pic 6.png'
+import pic7 from '../../assests/pic 7.png'
+import pic8 from '../../assests/pic 8.png'
+import pic9 from '../../assests/pic 9.png'
+import pic10 from '../../assests/pic 10.png'
+import pic11 from '../../assests/pic 11.png'
+import pic12 from '../../assests/pic 12.png'
 import { IoIosSearch } from "react-icons/io";
 
 

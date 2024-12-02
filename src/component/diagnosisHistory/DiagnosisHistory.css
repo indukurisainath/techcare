@@ -1,0 +1,94 @@
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Chart Section */
+  .chart-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .chart-placeholder {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Metrics Container */
+  .metrics-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Metric Card */
+  .metric-card {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Metric Value */
+  .metric-value {
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  /* Metric Label */
+  .metric-label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Background Colors */
+  .blue-bg {
+    background-color: #e6f7ff;
+  }
+  
+  .orange-bg {
+    background-color: #fff2e6;
+  }
+  
+  .red-bg {
+    background-color: #ffe6e6;
+  }
+  
+  /* Text Colors */
+  .blue-text {
+    color: #0073e6;
+  }
+  
+  .orange-text {
+    color: #ff4500;
+  }
+  
+  .red-text {
+    color: #ff0000;
+  }
+  

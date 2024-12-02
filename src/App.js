@@ -1,4 +1,5 @@
 
+import DiagnosisHistory from "./component/diagnosisHistory/DiagnosisHistory";
 import DiagnosticList from "./component/diagnosticList/DiagnosticList";
 import LabResults from "./component/labResult/LabResultList";
 import NavBar from "./component/navbar/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <PatientProfile/>
       <LabResults/>
       <DiagnosticList/>
+      <DiagnosisHistory/>
     </div>
   );
 }

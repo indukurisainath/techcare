@@ -1,4 +1,5 @@
 import NavBar from "./component/navbar/Navbar";
+import PatientsList from "./component/navbar/patientList/PatientList";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div >
     
       <NavBar/>
+      <PatientsList/>
     </div>
   );
 }

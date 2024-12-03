@@ -22,7 +22,7 @@ const diagnosticData = [
 const DiagnosticList = () => {
   return (
     <div className="diagnostic-list-container">
-      <h2>Diagnostic List</h2>
+      <h2 className="dignostic_heading">Diagnostic List</h2>
       <table className="diagnostic-table">
         <thead>
           <tr>

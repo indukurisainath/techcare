@@ -1,16 +1,18 @@
 .diagnostic-list-container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+  width: 47%;
+  margin: 0 auto;
+  padding: 0px 0px 0px 34px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-left: 309px;
+  margin-top: -12rem;
   }
   
   .diagnostic-list-container h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #333;
     margin-bottom: 20px;
   }
@@ -25,11 +27,12 @@
     text-align: left;
     padding: 10px;
     border-bottom: 1px solid #e0e0e0;
+    font-size: 5px;
   }
   
   .diagnostic-table th {
     background-color: #f5f5f5;
-    font-size: 1rem;
+    font-size: 10px;
     color: #666;
   }
   
@@ -38,7 +41,10 @@
   }
   
   .diagnostic-table td {
-    font-size: 0.9rem;
+    font-size: 10px;
     color: #333;
+  }
+  .dignostic_heading{
+    font-size: 10px;
   }
   

@@ -1,13 +1,14 @@
 /* Container styling */
 .container {
-    width: 100%;
-    max-width: 600px;
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9fc;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 580px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9fc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -57rem;
   }
   
   .title {
@@ -42,6 +43,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    height: 150px;
+  }
+  .metricimg_size{
+    height:40px;
   }
   
   /* Metric Card */
@@ -57,12 +62,12 @@
   /* Metric Value */
   .metric-value {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 12px;
   }
   
   /* Metric Label */
   .metric-label {
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
   }
   

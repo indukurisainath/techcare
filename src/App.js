@@ -1,4 +1,5 @@
 
+
 import DiagnosisHistory from "./component/diagnosisHistory/DiagnosisHistory";
 import DiagnosticList from "./component/diagnosticList/DiagnosticList";
 import LabResults from "./component/labResult/LabResultList";
@@ -12,11 +13,19 @@ function App() {
     <div >
     
       <NavBar/>
-      <PatientsList/>
-      <PatientProfile/>
-      <LabResults/>
-      <DiagnosticList/>
-      <DiagnosisHistory/>
+      <div><PatientsList/></div>
+      <div><PatientProfile/></div>
+      <div><LabResults/></div>
+      <div><DiagnosticList/></div>
+      <div><DiagnosisHistory/></div>
+      <div></div>
+      <div></div>
+      
+      
+      
+      
+      
+      
     </div>
   );
 }

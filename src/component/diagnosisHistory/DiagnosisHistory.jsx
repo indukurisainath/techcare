@@ -4,21 +4,23 @@ import heart from '../../assests/heart.png'
 import lungs from '../../assests/lungs.png'
 import temp from '../../assests/temp.png'
 import { MdOutlineArrowDropDown } from "react-icons/md";
+import BloodPressureChart from '../bloodPressureChart/BloodPressureChart';
 
 const DiagnosisHistory = () => {
   return (
     <div className="container">
       <h2 className="title">Diagnosis History</h2>
-      <div className="chart-section">
+      <BloodPressureChart/>
+      {/* <div className="chart-section">
         <div className="chart-header">
           <h3>Blood Pressure</h3>
           <p>Last 6 months</p>
-        </div>
+        </div> */}
         {/* Chart placeholder */}
-        <div className="chart-placeholder">
+        {/* <div className="chart-placeholder">
           <p>Chart placeholder</p>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       <div className="metrics-container">
         <div className="metric-card blue-bg">
             <img src={heart} alt='heartImg.' />
